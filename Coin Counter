@@ -1,0 +1,32 @@
+#Coin Counter
+import java.util.Scanner;
+
+//Declare Variables
+Scanner input = new Scanner (System.im);
+int money
+int q, qt
+int n, nt
+int d, dt
+int p
+int total
+
+//Prompt user fo amount
+System.out.println("How much change do you have: ");
+money = nextInt();
+input.close();
+
+//Calculations
+total = money % 25;
+q = money-total;
+qt = q / 25;
+total = total % 10;
+d = money - q - total;
+dt = d /10;
+total = total % 5;
+n = money - q - d- total;
+nt = n /5;
+p = total / 1;
+
+System.out.println("There are " + qt + "quarters, "+ dt +" dimes, "+ nt +"nickles, and "+ p + "pennies");
+
+
