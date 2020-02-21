@@ -10,7 +10,7 @@ int d, dt
 int p
 int total
 
-//Prompt user fo amount
+//Prompt user for amount
 System.out.println("How much change do you have: ");
 money = nextInt();
 input.close();
